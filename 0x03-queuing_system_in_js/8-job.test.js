@@ -1,6 +1,6 @@
 import { describe, it, before, after, afterEach } from 'mocha';
-import { expect } from 'chai';
 import { createQueue } from 'kue';
+import { expect } from 'chai';
 
 import createPushNotificationsJobs from './8-job.js';
 
